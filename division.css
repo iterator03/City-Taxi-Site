@@ -1,0 +1,108 @@
+body
+{
+	margin:0px;
+}
+#main-container
+{width:100%;
+height:1600px;
+margin:0px;
+min-height:100px;
+//min-width:400px;
+max-height:1600px;
+//max-width:1350px;
+}
+#header
+{width:inherit;
+background-color:black;
+height:120px;
+}
+h1
+{
+	margin:40px 40px 20px 40px;
+	text-shadow:0.5px 0.5px 0.5px green;
+
+}
+h2
+{
+	color:#50D3F3;
+	text-shadow:1.5px 1.2px 1px purple;
+}
+#div1
+{
+ float:left;
+}
+#div2
+{
+color:grey;
+padding:40px 0px;
+float:right;
+}
+#container
+{height:800px;
+width:inherit;
+animation:animate 3s infinite;
+}
+#content1
+{width:inherit;
+height:300px;
+background-color:#360F7B;
+}
+#content2
+{width:inherit;
+height:600px;
+margin:40px 0px 0px 0px;
+
+}
+#footer
+{width:inherit;
+height:300px;
+padding:50px 0px 50px 0px;
+background-image:url("images/car10.jpg");
+background-size:cover;
+color:#E02F1B;
+margin:20px;
+}
+p
+{
+	padding:40px 0px 20px 25px;
+	font-size:18px;
+	text-align:justify;
+	text-shadow:1px 1px 1px grey;
+}
+.b1
+{
+
+	padding:47px 47px 0px 47px;
+
+}
+a:link
+{
+	color:white;
+}
+a:active
+{
+	color:purple;
+}
+a:visited
+{
+	color:red;
+}
+a:hover
+{
+	color:grey;
+}
+a
+{
+	text-decoration:none;
+}
+button
+{
+	color:#B34209;
+	background:darkgrey;
+	margin-right:20px;
+	padding:5px;
+}
+
+#div1 :hover{
+	animation-play-state:paused;
+}
